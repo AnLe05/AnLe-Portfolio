@@ -1,315 +1,333 @@
 /* Add CSS styles for your web site here and use them in index.html. */
 
 :root {
-   --ff-poppins: 'Poppins', sans-serif; /* Define a CSS variable for the font */
+   --ff-poppins: 'Poppins', sans-serif;
 }
-
 html {
-   font-family: var(--ff-poppins); /* Apply the font to the whole document */
+   font-family: var(--ff-poppins); 
 }
- html{
+html{
     background-color:#1E1E1E;
     scroll-behavior: smooth;
-    transform-origin: 0 0;
+    /* transform-origin: 0 0; */ 
    
- }
- #menu_tab {
-    background-color: #333;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 40px;
-    font-size: 1rem;
-    position: fixed;
-    width: 97%;
-    top: 0;
-    z-index: 100;
- }
- .menu_links ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    color:aliceblue;
- }
- .menu_links li a {
-    text-decoration: none;
-    color:white;
-    padding: 25px;
- }
+}
+#menu_tab {
+   background-color: #333;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 40px;
+   font-size: 1rem;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   z-index: 100;
+   margin-right: 20px;
+}
+.menu_links ul {
+   list-style-type: none;
+   margin: 0;
+   padding-right: 60px;
+   display: flex;
+   color:aliceblue;
+   gap: 20px;
+}
+.menu_links li a {
+   text-decoration: none;
+   color:white;
+}
 .logo{
-    color: grey;
- }
- #All_About,#All_Experiences,#All_Skills {
-    padding-top: 50px;
-    margin-top: -50px;
- }
+   color: grey;
+}
+#All_About,#All_Experiences,#All_Skills {
+   padding-top: 50px;
+   margin-top: -50px;
+}
  
- .profile{
-    text-align: center;
-    margin-top: 120px;
-    margin-bottom: 50px;
- }
- .profile p{
-    color:  gray;
-    font-size: 2.5rem;
- }
- .profile h1{
-    font-size: 2.5rem;
- }
- #profile_pic{
+.profile{
+   text-align: center;
+   margin-top: 120px;
+   margin-bottom: 150px;
+}
+.profile p{
+   color:  gray;
+   font-size: 2.5rem;
+}
+.profile h1{
+   font-size: 2.5rem;
+}
+#profile_pic{
    width: 350px;
    border-radius: 50%;
- }
- #profile_education h1{
+}
+#profile_education h1{
    color:#9EFFFF;
    margin-bottom: 60px;
- }
-
- .container_name {
-   font-size: 3.0rem; 
-   text-align: center;
-   display: flex; /* Use flexbox */
-   justify-content: center; /* Center horizontally */
-   align-items: center; /* Center vertically */
-   height: 100%; /* Ensure it takes the full height of its container */
 }
 
- p,h1{
-   color:white;
- }
- .profile .title{
-   font-size: 5rem;
- }
- #About {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    margin: 0 auto;
-    max-width: 90%;
-    
- }
- #About p{
-    font-size: 1.75rem;
-    text-align:left;
-    margin-top:-40px;
-    font-weight: 300;
-    color:#1E1E1E;
- }
- #pic_container {
-    display: flex;
-    align-items: center;
- }
- span{
-   font-weight:410;
- }
- #About {
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;
-    align-items: center; 
-    gap: 50px; 
-    
-    margin: 0 auto;
-    max-width: 90%;
-    margin-bottom: 200px;
-    background-color: white;
-    border-radius: 50px;
-    padding-left: 50px;
-    padding-bottom: 30px;
-    padding-top: 30px;
- }
- #About .text_content{
-   margin-top: 20px;
- }
- #pic_container {
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
+.container_name {
+   font-size: 3.0rem; 
+   text-align: center;
+   display: flex; 
+   justify-content: center; 
+   align-items: center;
+   height: 100%; 
+}
 
+p,h1{
+   color:white;
+}
+.profile .title{
+   font-size: 5rem;
+}
+#About {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+   max-width: 100%;
+    
+}
+#About p{
+   font-size: 1.75rem;
+   text-align:left;
+   margin-top:-40px;
+   font-weight: 300;
+   color:#1E1E1E;
+}
+#pic_container {
+   display: flex;
+   align-items: center;
+   width: 100%;
+}
+span{
+   font-weight:410;
+}
+#About {
+   display: flex;
+   flex-direction: row; 
+   justify-content: center;
+   align-items: center; 
+   gap: 50px; 
+   margin: 0 auto;
+   max-width: 90%;
+   margin-bottom: 200px;
+   background-color: white;
+   border-radius: 50px;
+   padding-bottom: 30px;
+   padding-top: 30px;
+}
+#About .text_content{
+   padding-top: 50px;
+   padding-left: 25px;
+}
+#pic_container {
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: auto;
+
+}
+#profile_pic{
+   width: 470px;
+   border-radius: 50px;
+   margin-bottom: 150px;
+}
+#Experiences {
+   justify-content: center; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 50px;
+   padding-left:50px ;
+   padding-right:50px;
+   max-width: 100%;
+   margin-bottom: 200px;
+}
+.text_content {
+   font-size: 1.5rem;
+   padding-top: 30px;
+   gap: 30px;
+}
+.text_content_head{
+   width: 450px;
+}
+@media only screen and (max-width: 600px) {
+   .text_content_head{
+      width: 300px;
+   }
+}
+.experience_img{
+   margin-top:40px;
+   width: 300px;
+}
+@media only screen and ( max-width: 750px){
+   .experience_img{
+      width:200px;
+   }
+}
+
+.text_content li {
+   font-size: 1.5rem;
+   font-weight: 300;
+}
+
+.text_content_head h1{
+   font-size: 1.75rem;
+   color: black;
+   font-weight: 400;
  }
- #profile_pic{
-    width: 470px;
-    border-radius: 50px;
-    margin-bottom: 150px;
- }
- 
- .text_content {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: flex-start;
-    text-align: left;
-    font-size: 1.5rem;
-    padding-top: 40px;
-    gap: 25px;
- }
- .text_content li {
-    text-align: left;
-    font-size: 1.5rem;
-    margin-left: 0px;
-    position: relative;
-    font-weight: 300;
- }
- 
- .text_content h1{
-    font-size: 1.75rem;
-    display: flex;
-    flex-direction: column;
-    color: black;
-    font-weight: 400;
-    line-height:0;
- }
- .experiences_container_ex .experience_position{
+.experiences_container_ex .experience_position{
    font-size: 2rem;
 }
 .experiences_container_ex .experience_time{
    font-size: 1.35rem;
    font-weight: 200;
-}{
-   font-size: 2rem;
-}
-.experiences_container_ex .text_content{
-   margin-left: 40px;
-}
-#Experiences {
-   display: flex;
-   flex-direction: row;
-   gap: 60px;
-   align-items: flex-start; /* Keeps elements aligned at the top */
-   justify-content: center; /* Centering the container */
-   max-width: 90%;
-   margin: 0 auto; /* Center the container */
-   margin-bottom: 200px;
-}
-.text_content.head {
-   width: 100%; 
-   text-align: center;
-   justify-content: center;
-   align-items: center;
-}
-.text_content.head h1{
-   line-height:0;
-   margin-bottom: 0;  
-   line-height: 0;
 }
 .experiences_container_ex {
+   padding-left: 27px;
+   padding-right: 27px;
+}
+
+.text_content_head {
    display: flex;
-   flex-direction: column; 
+   flex-direction: column;
    align-items: center; 
+   justify-content: center; 
+   text-align: center; 
+   line-height: 0.5;
+}
+.text_content_head h1{
+   line-height: 1.1;
    text-align: center;
+}
+
+.experiences_container_ex {
    background-color: white;
    border-radius: 65px;
-   padding:10px;
-   height: 810px;
-}
- .pic_container_ex{
-   width: 550px; 
- }
- .pic_container_ex img{
-   width: 450px;
- }
-
- .container_info h1 {
-    font-size: 1.95rem;
-    margin: 10px 0;
-    font-weight: 400;
- }
- .container_info a {
-    color: #ff5733;
-    text-decoration: none;
- }
- .container_icon {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 50px;
-    margin-bottom: 150px;
- }
- 
- .container_icon img {
-    width: 64px;
-    height: auto;
- }
- 
- #Skills {
-    display: flex; 
-    justify-content: space-around; 
-    align-items: center;
-    padding: 20px; 
-    width: 90%;
-    margin: 0 auto; 
-    margin-bottom: 100px;
- }
- #Skills {
+   width: 100%;
+   padding-right: 30px;
+   padding-bottom: 30px;
    display: flex;
-   justify-content: center; /* Center horizontally */
-   align-items: center; /* Center vertically */
-
+   justify-content: center; 
+   align-items: center;
+   gap: 20px;
+   
+}
+.container_info h1 {
+   font-size: 1.95rem;
+   margin: 10px 0;
+   font-weight: 400;
+   
+}
+.container_info a {
+   color: #ff5733;
+   text-decoration: none;
+}
+.container_icon {
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   margin-top: 50px;
+   margin-bottom: 150px;
+}
+ 
+.container_icon img {
+   width: 64px;
+   height: auto;
+}
+ 
+#Skills {
+   display: flex; 
+   justify-content: space-around; 
+   align-items: center;
    padding: 20px; 
    width: 90%;
    margin: 0 auto; 
-   height: 400px; /* Set a height to help with vertical centering */
-   margin-bottom: 150px;
-   flex-wrap: wrap; /* Allow items to wrap if necessary */
+   margin-bottom: 100px;
 }
- 
- .container_skills {
-    display: flex; 
-    flex-direction:row;
-    align-items: center; 
-    justify-content: center;
-    text-align: center; 
-    flex: 1; 
-    padding-top: 30px;
-    padding-bottom: 30px;
- }
- .container_skills img {
+#Skills {
+   display: flex;
+   justify-content: center; 
+   align-items: center; 
+   padding: 20px; 
+   width: 90%;
+   margin: 0 auto; 
+   height: auto;
+   margin-bottom: 150px;
+   flex-wrap: wrap; 
+}
+.container_skills {
+   display: flex; 
+   flex-direction:row;
+   align-items: center; 
+   justify-content: center;
+   text-align: center; 
+   flex: 1; 
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+.container_skills img {
    width: 160px;
    height: 160px;
- }
- .container_skills h1 {
-    font-size: 2rem;
-    margin: 5px ;
-    color: #ff5733;
- }
+}
+.container_skills h1 {
+   font-size: 2rem;
+   margin: 5px ;
+   color: #ff5733;
+}
 
- #Contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    text-align: center;
- }
- #container_resume {
-    background-color: white;
-    width: 170px;
-    height: 65px;
-    text-align: center;
-    align-items: center;
-    border-radius: 15px;
-    margin-top: 20px;
- }
- #container_resume h1{
-    color:black;
-    font-size:2rem;
- }
- #Contact #info{
+#Contact {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   text-align: center;
+}
+#container_resume {
+   background-color: white;
+   width: 170px;
+   height: 65px;
+   text-align: center;
+   align-items: center;
+   border-radius: 15px;
+   margin-top: 20px;
+}
+#container_resume h1{
+   color:black;
+   font-size:2rem;
+}
+#Contact #info{
    font-weight: 400;
- }
- .container_info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- }
+}
+.container_info {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
 
- #container_resume:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    background-color: grey;
- }
+#container_resume:hover {
+   transform: scale(1.05);
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+   background-color: grey;
+}
+
+@keyframes appear{
+   from {
+      opacity: 0;
+      transform: translateX(-100px);
+   }
+   to {
+      opacity: 1;
+      transform: translateX(0px);
+   }
+}
+#All_Contact, #All_Skills, #All_Experiences, #All_About, .profile{
+   animation: appear linear;
+   animation-timeline: view();
+   animation-range: entry 0% cover 40%;
+}
